@@ -1,0 +1,12 @@
+{
+  "name": "digital-products/codeception-module-visualception",
+  "type": "library",
+  "description": "Codeception module to make visual regression tests",
+  "require": {
+    "ext-imagick": "*",
+    "codeception/codeception": ">=2.1 <2.3"
+  },
+  "autoload": {
+    "psr-4": { "Codeception\\Module\\": "module" }
+  }
+}
